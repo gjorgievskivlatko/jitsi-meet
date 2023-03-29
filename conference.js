@@ -856,7 +856,20 @@ export default {
 
         this._initDeviceList(true);
 
-        return this.startConference(con, handleStartAudioMuted(initialOptions, tracks));
+        try {
+            return this.startConference(con, handleStartAudioMuted(initialOptions, tracks));
+        } catch (e) {
+            if (e && e.message && e.message === 'browser.firefoxNotAllowed') {
+                const descriptionKey = 'browser.firefoxNotAllowed';
+                const titleKey = 'browser.incompatibilityTitle';
+                APP.UI.messageHandler.showError({
+                    descriptionKey,
+                    titleKey
+                });
+            } else {
+                throw e;
+            }
+        }
     },
 
     /**

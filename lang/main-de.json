@@ -1375,5 +1375,9 @@
         "terms": "AGB",
         "title": "Sichere, voll funktionale und komplett kostenlose Videokonferenzen",
         "upcomingMeetings": "Ihre zukünftigen Konferenzen"
+    },
+    "browser": {
+        "incompatibilityTitle": "Browser Inkompatibilität",
+        "firefoxNotAllowed": "Firefox-Browser ist nicht erlaubt, bitte verwenden Sie stattdessen Chrome, Safari oder Edge."
     }
 }

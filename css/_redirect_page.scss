@@ -1,6 +1,6 @@
 .redirectPageMessage {
     width: 30%;
-    margin: 20% auto;
+    margin: calc(100vh / 2 - 40px) auto;
     text-align: center;
     font-size: 24px;
 
@@ -31,4 +31,19 @@
             background: $happySoftwareBackground;
         }
     }
+}
+
+@media screen and (max-width: 800px) {
+    .redirectPageMessage {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .redirectPageMessage {
+        width: 80%;
+    }
+}
+
+.redirectPageMessage > .hint-msg {
+    display:none;
 }

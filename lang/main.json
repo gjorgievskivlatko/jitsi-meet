@@ -1375,5 +1375,9 @@
         "terms": "Terms",
         "title": "Secure, fully featured, and completely free video conferencing",
         "upcomingMeetings": "Your upcoming meetings"
+    },
+    "browser": {
+        "incompatibilityTitle": "Browser incompatibility",
+        "firefoxNotAllowed": "Firefox browser is not allowed, please use Chrome, Safari or Edge instead."
     }
 }
