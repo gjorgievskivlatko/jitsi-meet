@@ -1378,6 +1378,6 @@
     },
     "browser": {
         "incompatibilityTitle": "Browser incompatibility",
-        "firefoxNotAllowed": "Firefox browser is not allowed, please use Chrome, Safari or Edge instead."
+        "firefoxNotAllowed": "Firefox browser is not supported, please use Chrome, Safari or Edge instead."
     }
 }

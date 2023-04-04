@@ -1378,6 +1378,6 @@
     },
     "browser": {
         "incompatibilityTitle": "Browser Inkompatibilität",
-        "firefoxNotAllowed": "Firefox-Browser ist nicht erlaubt, bitte verwenden Sie stattdessen Chrome, Safari oder Edge."
+        "firefoxNotAllowed": "Der Firefox-Browser wird nicht unterstützt. Bitte verwenden Sie stattdessen Chrome, Safari oder Edge."
     }
 }
