@@ -59,7 +59,7 @@
         }
 
         // Check if it is Firefox
-        if (window.navigator.userAgent.toLowerCase().indexOf('firefox')) {
+        if (window.navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
             window.location.pathname = 'static/recommendedBrowsers.html';
         }
 
